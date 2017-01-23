@@ -33,11 +33,6 @@ class CreatorsController < ApplicationController
     end
   end
 
-  # DELETE /creators/1
-  def destroy
-    @creator.destroy
-  end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_creator
